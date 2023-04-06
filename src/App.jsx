@@ -5,7 +5,7 @@ import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import {MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator} from "@chatscope/chat-ui-kit-react"
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 function App() {
   const [typing, setTyping] = useState(false);
@@ -48,8 +48,7 @@ function App() {
 
     const systemMessage = {
       role: "system",
-      content: "Speak like a pirate"
-
+      content: "Speak like a teacher with a sense of humor"
     }
 
     const apiRequestBody = {
